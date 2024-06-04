@@ -1,10 +1,10 @@
 // Define our URL 
-const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson";
+const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 // creating the map
 let myMap = L.map("map", {
-    center: [51.505, -0.09],
-    zoom: 5
+    center: [45, -105],
+    zoom: 3
 
 });
 
